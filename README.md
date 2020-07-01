@@ -27,3 +27,6 @@ Uma vez que o banco de dados esteja atualizado, é feita a disponibilização do
 
 # Visual final
 O relatório final que é obtido com base em grafo dinâmico com ligações entre empresas e sócios.
+
+# Aviso de novos dados
+Um serviço cron foi ativado para avisar sempre que novos arquivos foram disponibilizados no site da Receita Federal. Usa a data do último lote disponibilizado como chave para ativar o envio do aviso.
