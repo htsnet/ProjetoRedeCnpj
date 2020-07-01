@@ -21,6 +21,9 @@ Após a confirmação do funcionamento, o projeto foi alterado para usar o MySQL
 
 # Detalhes de funcionamento e explicativo
 O site Rede CNPJ (https://redecnpj.com.br/) foi criado com o objetivo de explicar os conceitos, bases, privacidade e uso dos recursos.
+A cada liberação de arquivos pela Receita Federal (a cada 3 meses), é executado o download do conjunto de arquivos para ambiente local.
+Com base nos arquivos, é executado um processamento de organização dos dados e geração do banco de dados MySQL.
+Uma vez que o banco de dados esteja atualizado, é feita a disponibilização do banco no ambiente do provedor de forma que ele seja utilizado para as consultas realizadas.
 
 # Visual final
 O relatório final que é obtido com base em grafo dinâmico com ligações entre empresas e sócios.
